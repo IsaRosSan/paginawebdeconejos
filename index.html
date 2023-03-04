@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web de Conejos</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" 
+    href="imágenes/conejo.png">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--Esto es un comentario-->
+  <h1> Página Web de Conejos</h1> 
+    <!--Esto es un encabezado de tamaño 3-->
+  <h3>Imágenes de Conejos</h3>
+
+  <!--Agregar imágen desde internet-->
+  <img src="https://www.todosobreconejos.com/wp-content/uploads/2020/04/habana-1.jpg">
+
+  <br>
+  
+  <!--Agregar imágen desde nuestra computadora-->
+  <img src="imágenes/retrato-conejito-negro.jpg">
+
+<div>
+  <h3>Listas de Conejos</h3>
+  <p>3 cosas que los conejos <strong>aman</strong></p>
+  <!--Listas ordenadas-->
+  <ol><!--Ordered list-->
+    <li>Pastito</li>
+    <li>Galletas</li>
+    <li>Roer</li>
+  </ol>
+
+  <!--Listas desordenadas-->
+  <p>3 cosas que los conejos <strong>odian</strong></p>
+  <ul><!--unordered list-->
+    <li>El agua</li>
+    <li>Perros y gatos</li>
+    <li>Demasiada limpieza</li>
+  </ul>
+</div>
+
+  <!--Crear enlaces externos-->
+  <p>Si quieres ver un video de conejos <a href="https://www.youtube.com/watch?v=JwzyRkH10fg" target="_blank">da clic en este enlace</a></p>
+
+  <form>
+    <!--Formulario de botones de radio-->
+    <p>¿Tu conejo es bebé o adulto?</p>
+    <label>
+      <input id="Bebé" type="radio"
+      value="Bebé" name="Bebé-Adulto"> Bebé
+    </label>
+      <br>
+    <label>
+      <input id="Adulto" type="radio"
+      value="Adulto" name="Bebé-Adulto" checked> Adulto
+    </label>
+
+    <!--Formulario con casillas de verificación-->
+    <p>¿Qué tipo de conejo es el tuyo?</p>
+    <label>
+      <input id="Carinoso" type="checkbox"
+      value="Carinoso" name="Personalidad">Cariñoso
+    </label>
+      <br>
+    <label>
+      <input id="Perezoso" type="checkbox"
+      value="Perezoso" name="Personalidad">Perezoso
+    </label>
+      <br>
+    <label>
+      <input id="Energico" type="checkbox"
+      value="Energico" name="Personalidad" checked>Enérgico
+    </label>
+</form>
+
+<footer>
+  <p>Esta página fue creada con ayuda de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a></p>
+</footer>
+</body>
+</html>

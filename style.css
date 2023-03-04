@@ -1,0 +1,35 @@
+/*Estiloen el body*/
+body{ 
+    color: #394918;
+    background-color:#ff6380 ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p, li {
+    color: #211800;
+}
+
+h3{ 
+    font-size: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+h1{ 
+    font-size: 50px;
+    color: #fff6b6;
+    font-family:is;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+    border-style:solid;
+    border-width: 5px;
+    border-color: #fff6b6;
+    padding: 20px;
+    margin: 20px;
+ }
+
+ div, footer{ background-color: #ffb28b;
+
+ }
